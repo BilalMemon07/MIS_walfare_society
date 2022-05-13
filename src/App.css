@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: calc(100vh - 30vh);
   pointer-events: none;
 }
 
@@ -35,4 +35,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  /* min-height: calc(100vh - 30vh); */
+  height: 60vh;
+  margin-top: 20px;
 }
